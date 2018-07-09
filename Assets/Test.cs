@@ -7,27 +7,33 @@ public class Test : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
-        int[] ary = new int[] { 5, 10, 15, 20, 25 };
+        int[] points = new int[5];
 
-       
-
-        for (int i = 4; 0 <= ary.Length; i--) {
-
-
-     
-            Debug.Log(ary[i]);
+        points[0] = 5;
+        points[1] = 10;
+        points[2] = 15;
+        points[3] = 20;
+        points[4] = 25;
 
 
+
+        for (int i = 4; i >= 0; i--) {
+
+
+
+            Debug.Log(points[i]);
+
+
+
+        }
 
     }
 
-            }
 
 
 
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Update is called once per frame
+    void Update() {
+
+    }
 }
