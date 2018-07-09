@@ -16,20 +16,18 @@ public class Test : MonoBehaviour {
         points[4] = 25;
 
 
-
-        for (int i = 4; i >= 0; i--) {
-
-
-
-            Debug.Log(points[i]);
-
-
-
+        for (int T = 0; T <= 4; T++) {
+            Debug.Log(points[T]);
         }
 
+        for (int i = 4; i >= 0; i--) {                     
+            Debug.Log(points[i]);
+
+        }
+        
+
+       
     }
-
-
 
 
     // Update is called once per frame
